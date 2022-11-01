@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main>
+        <form class="form js-form">
+            <fieldset>
+                <legend class="form__legend">Kalkulator walut</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Kwota do wymiany </span>
+                        <input class="form__field js-inputAmount"
+                            type="number" name="amount" step="0.01" min="0" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Z jakiej waluty chcesz wymienić </span>
+                        <select class="form__field js-inputCurrency" name="inputCurrency">
+                            <option value="PLN">PLN</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Na jaką walute chcesz wymienić </span>
+                        <select class="form__field js-outputCurrency" name="outputCurrency">
+                            <option value="PLN">PLN</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <button class="form__button">Przelicz</button>
+                </p>
+                <p>Otrzymasz: <span class="js-result">N/A</span></p>
+            </fieldset>
+        </form>
+        <footer class="footer">Kurst walut z dnia 22.10.2022r.</footer>
+    </main>
+</body>
+
+</html>

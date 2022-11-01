@@ -1,0 +1,32 @@
+.form__legend {
+    background-color: #cee7ff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc
+}
+
+.form__lableText {
+    margin-right: 12px;
+}
+
+.form__field {
+    background-color: #ebf6ff;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc
+}
+
+.form__button {
+    background-color: #ebf6ff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc
+}
+
+.form__button:hover {
+    background-color: #cee7ff;
+}
+
+.form__button:active {
+    background-color: #b4dcff;
+}
