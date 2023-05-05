@@ -12,6 +12,10 @@ html {
     max-width: 600px;
     margin: auto;
     padding: 50px;
+    background-image: url("../images/background.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color:#f5faff;
 }
 
