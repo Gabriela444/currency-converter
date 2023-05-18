@@ -1,5 +1,7 @@
 {
-
+    const welcome = () => {
+        console.log("Hello! Have a nice day. :)")
+    }
 
     const chosenCurrency = () => {
         const pln_eur = 0.2213;
